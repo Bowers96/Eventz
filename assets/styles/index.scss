@@ -1,0 +1,311 @@
+body {
+  background: tomato;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgba(255,255,255,0.80);
+  box-shadow: 0 2px 2px rgba(0,0,0,.15);
+  position: fixed;
+  width: 100%;
+  margin-left: -15px
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.dropdown {
+  float: left;
+  margin-top: -52px;
+  margin-left: 50px;
+}
+
+.dropdown-menu {
+  border-radius:0px;
+  box-shadow:none;
+  border:none;
+  min-width: 200px;
+  top: 28px;
+  background-color: #000;
+}
+
+.dropdown-menu li {
+  font-size: 20px;
+  font-family: 'Bangers', cursive;
+  margin-left: 0;
+  float:none;
+}
+
+.dropdown-menu li a {
+  color:#fff;
+  padding: 5px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown-menu li a:hover {
+  background: rgba(255,255,255,0.80);
+  color:#000;
+}
+
+.side-content {
+  margin-top: 129px;
+  width: 100%;
+  height: 500px;
+  background: rgba(255,255,255,0.80);
+  border: 5px solid black;
+}
+
+.col-header {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  padding-top: 1px;
+  background-color: black;
+  color: tomato;
+  padding: 10px;
+
+  p, h3 {
+    margin: 0;
+  }
+}
+
+.btn {
+  background: black;
+  color: white;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: right;
+  margin: 15px 22px 0 0;
+  padding: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.footer {
+  background: rgba(255,255,255,0.80);
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin-left: -15px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Bangers', cursive;
+}
+
+p {
+  margin: 7px;
+}
+
+.group-input-one {
+  width: 94%;
+  margin: 10px 3% 0;
+  padding: 20px;
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
+.group-input {
+  width: 94%;
+  margin: 20px 3% 0;
+  padding: 20px;
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
+.group-input-one:focus {
+  outline: none;
+}
+
+.group-input:focus {
+  outline: none;
+}
+
+.right-col {
+  width: 100%;
+  margin-top: 129px;
+  margin-left: 40px;
+  height: 500px;
+  border: 5px solid black;
+  float: right;
+  overflow: auto;
+}
+
+.side-content-right {
+  width: 100%;
+  height: 425px;
+  background: rgba(255,255,255,0.80);
+  float: right;
+  overflow: auto;
+}
+
+.contents {
+  font-family: 'Bangers', cursive;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.item {
+  float: left;
+  background: rgba(0,0,0,0.80);
+  margin: 10px;
+}
+
+.sign-up {
+display: none;
+height: 200px;
+width: 200px;
+margin: 147px auto;
+}
+
+.input {
+  margin-top: 20px;
+  padding: 20px;
+  width: 400px;
+  background: rgba(255,255,255,0.80);
+  font-size: 20px;
+  font-family: 'Bangers', cursive;
+}
+
+.input:focus {
+  outline: none;
+}
+
+textarea {
+  border: 1px solid lightgrey;
+}
+
+#sign-up {
+  margin-left: -95px;
+}
+
+#sign-in {
+  margin-left: -95px;
+}
+
+#change-password {
+  margin-left: -54px;
+}
+
+.btn-one {
+      background: black;
+      color: white;
+      display: block;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      float: right;
+      margin-right: -106px;
+      margin-top: 10px;
+      padding: 13px 20px;
+      cursor: pointer;
+}
+
+.btn-two {
+    background: black;
+    color: white;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    margin-right: -106px;
+    margin-top: 10px;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+.btn-three {
+      background: black;
+      color: white;
+      display: block;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      float: right;
+      margin-right: -50px;
+      margin-top: 10px;
+      padding: 13px 20px;
+      cursor: pointer;
+}
+
+.header-sign-up {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+.sign-in {
+  display: none;
+  height: 200px;
+  width: 200px;
+  margin: 200px auto;
+}
+
+.header-sign-in {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+.change-password {
+  display: none;
+  width: 296px;
+  margin: 113px auto;
+}
+
+.header-change-password {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+.sign-out {
+  font-family: 'Bangers', cursive;
+  display: none;
+  height: 200px;
+  width: 400px;
+  margin: 140px auto;
+  text-align: center;
+}
+
+.glyphicon {
+  color: white;
+  float: right;
+  margin: 9px;
+}
+
+.item {
+  max-width: 31.1%;
+}
+
+.contents {
+  outline: none;
+  cursor: pointer;
+}
+
+
+@media (min-width: 650px) {
+  .right-col {
+    width: calc(100% - 340px);
+  }
+
+  .side-content {
+    width: 300px;
+    float: left;
+  }
+}

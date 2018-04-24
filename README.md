@@ -62,8 +62,4 @@ App Use:
 I decided to create a fun and playful mobile responsive web design, with a event planner integrated in because who doesn't have a bunch of fun events to go to and wants to share the information about them.
 
 
-![Active Game State](http://i.imgur.com/nL3q3gz.png)
-![Active Game State](http://i.imgur.com/ZpVHAIo.png)
-![Active Game State](http://i.imgur.com/um7ipZ6.png)
-![Active Game State](http://i.imgur.com/KiHdsHD.png)
-# Eventz
+![Active Game State](http://i.imgur.com/fpEBnNq.jpg)
